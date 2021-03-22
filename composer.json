@@ -1,0 +1,15 @@
+{
+    "name": "brucep/wp-helper-etag",
+    "description": "ETag (conditional request) support for custom WordPress development.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "brucep/wp-helper-redis": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brucep\\WordPress\\ETagHelper\\": "src/"
+        }
+    }
+}
